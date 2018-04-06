@@ -13,7 +13,7 @@
 
     Ignore everything between the end of this comment and the 
     START HERE comment. That's where you'll find the instructions.
-    The code in between is  is just nonsense data we're using to create the environment. 
+    The code in between is just nonsense data we're using to create the environment. 
 
     Suggested time: 45 minutes.
 --->
