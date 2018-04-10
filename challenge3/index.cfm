@@ -30,7 +30,6 @@
             } else if (structKeyExists(form, "addNewCompany")) {
                 companyExists = com_model.searchForCompanyByName(form.companyName);
                 if (companyExists.recordcount gt 0) {
-                    //What do we do if the company already exists?
                     displayMessage = "
                         <h3>The company name you submitted, <a href='/jobseeker/companyprofile.cfm?CompanyID=#urlencodedformat(tobase64(encrypt(companyExists.CompanyID,theurlKey,'AES', 'HEX')))#&'>
                         #form.companyName#</a>, already has a Conservative Jobs profile. 
